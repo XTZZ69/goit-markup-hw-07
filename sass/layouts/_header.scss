@@ -1,0 +1,116 @@
+.header-list {
+  display: flex;
+
+  gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contacts-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-icon {
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.contacts-item {
+  margin-left: 30px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.header-tel {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-navigation {
+  width: 281px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+  transition: color var(--ms-transition);
+  transition-timing-function: var(--transition-effect);
+  position: relative;
+  &.active {
+    color: var(--accent-color);
+  }
+  .header-link:focus,
+  .header-link:hover {
+    color: var(--accent-color);
+  }
+}
+.header-mail {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-tel,
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--minor-color);
+  transition: color var(--ms-transition);
+  transition-timing-function: var(--transition-effect);
+  &:hover,
+  &:hover,
+  &:focus,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  color: var(--accent-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  width: 145px;
+  margin-right: 93px;
+}
+.logo-web {
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+}
+.container-nav {
+  display: flex;
+  align-items: center;
+}
