@@ -1,13 +1,4 @@
-.header-list {
-  display: flex;
 
-  gap: 50px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
 .contacts-item-icon {
   display: flex;
   align-items: center;
@@ -40,14 +31,24 @@
   justify-content: center;
 }
 
-.header-navigation {
+.navigation {
   width: 281px;
+}
+.navigation__list {
+  display: flex;
+
+  gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .header {
   border-bottom: 1px solid #ececec;
 }
-.header-link {
+.navigation__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,8 +65,8 @@
   &.active {
     color: var(--accent-color);
   }
-  .header-link:focus,
-  .header-link:hover {
+  &:focus,
+  &:hover {
     color: var(--accent-color);
   }
 }
@@ -102,13 +103,15 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+
   margin-right: 93px;
 }
-.logo-web {
+.header__web {
   color: var(--accent-color);
   font-family: var(--secondary-font);
 }
-.container-nav {
-  display: flex;
+.header__navigation {
+  display: flex; 
   align-items: center;
 }
