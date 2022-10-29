@@ -1,10 +1,10 @@
-.profile {
+.profile__conteiner {
     padding-top: 0;
   }
-  .profile-wrap {
+  .profile__wrap {
     position: relative;
   }
-  .profile-top-title {
+  .profile__top-title {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -19,7 +19,7 @@
     padding: 27px;
     width: 100%;
   }
-  .profile-title {
+  .profile__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -28,7 +28,7 @@
     color: var(--primary-color);
     margin-bottom: 50px;
   }
-  .profile-list {
+  .profile__list {
     display: flex;
     gap: 30px;
   }

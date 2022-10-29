@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -8,12 +8,12 @@
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   gap: 30px;
 }
 
-.clients-logo {
+.clients__logo {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -30,12 +30,12 @@
     border-color: var(--accent-color);
   }
 }
-.clients-icon {
+.clients__icon {
   fill: #afb1b8;
   transition: fill var(--ms-transition);
   transition-timing-function: var(--transition-effect);
-  .clients-logo:hover &,
-  .clients-logo:focus & {
+  .clients__logo:hover &,
+  .clients__logo:focus & {
     fill: var(--accent-color);
   }
 }
